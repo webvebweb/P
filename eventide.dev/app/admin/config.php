@@ -1,0 +1,31 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://eventide.dev/app/admin/');
+define('HTTP_CATALOG', 'http://eventide.dev/app/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://eventide.dev/app/admin/');
+define('HTTPS_CATALOG', 'http://eventide.dev/app/');
+
+// DIR
+define('DIR_APPLICATION', 'C:/OpenServer/domains/eventide.dev/app/admin/');
+define('DIR_SYSTEM', 'C:/OpenServer/domains/eventide.dev/app/system/');
+define('DIR_IMAGE', 'C:/OpenServer/domains/eventide.dev/app/image/');
+define('DIR_LANGUAGE', 'C:/OpenServer/domains/eventide.dev/app/admin/language/');
+define('DIR_TEMPLATE', 'C:/OpenServer/domains/eventide.dev/app/admin/view/template/');
+define('DIR_CONFIG', 'C:/OpenServer/domains/eventide.dev/app/system/config/');
+define('DIR_CACHE', 'C:/OpenServer/domains/eventide.dev/app/system/storage/cache/');
+define('DIR_DOWNLOAD', 'C:/OpenServer/domains/eventide.dev/app/system/storage/download/');
+define('DIR_LOGS', 'C:/OpenServer/domains/eventide.dev/app/system/storage/logs/');
+define('DIR_MODIFICATION', 'C:/OpenServer/domains/eventide.dev/app/system/storage/modification/');
+define('DIR_UPLOAD', 'C:/OpenServer/domains/eventide.dev/app/system/storage/upload/');
+define('DIR_CATALOG', 'C:/OpenServer/domains/eventide.dev/app/catalog/');
+
+// DB
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'mysql');
+define('DB_PASSWORD', 'mysql');
+define('DB_DATABASE', 'mysql');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
